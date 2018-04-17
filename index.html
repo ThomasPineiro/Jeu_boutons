@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clic me!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+<div id="menu" class="centrer_contenu">
+    <h1>Bienvenue au grand jeu du bouton !</h1>
+    <h2>Serez vous à la hauteur ?</h2>
+    <p>Le but de ce jeu est très simple, vous devez trouver le bouton a cliquer et le cliquer tout simplement. Prenez garde toutefois vous êtes chronométrés ! Vous avez 1O secondes pour le premier niveau, bonne chance !</p>
+    <button class="bouton2" id="bouton_menu">Commencer !</button>
+</div>
+
+<div id="lvl1" class="centrer_contenu">
+    <button class="bouton1" id="bouton_1">Cliques moi !</button>
+    <button class="bouton2" id="bouton_2">Cliques ici !</button>
+    <button class="bouton3" id="bouton_3">Par la !</button>
+    <button class="camouflage" id="bouton_troll"><img src="images/troll.png" id="troll"></button>
+</div>
+
+<div id="pre_lvl2" class="centrer_contenu">
+    <p>Félicitations vous êtes un petit malin ! Voyons voir maintenant si vous avez ce qu'il faut pour terminer les autres niveaux. Vous disposez de 8 secondes !!</p>
+    <button  class="bouton2" id="go_lvl2">C'est parti !</button>
+</div>
+
+<div id="lvl2" class="centrer_contenu">
+    <button class="bouton1" id="bouton_5">Cliques moi !</button>
+    <button class="bouton2" id="bouton_6">Cliques moi !</button>
+    <button class="bouton3" id="bouton_7">Cliques moi !</button>
+    <button class="bouton1" id="bouton_4">Cliques moi !</button>
+    <button class="bouton2" id="bouton_8">Cliques moi !</button>
+    <button class="bouton3" id="bouton_9">Cliques moi !</button>
+    <button class="bouton1" id="bouton_10">Cliques moi !</button>
+    <button class="bouton2" id="bouton_11">Cliques moi !</button>
+    <button class="bouton3" id="bouton_12">Cliques moi !</button>
+</div>
+
+<div id="pre_lvl3" class="centrer_contenu">
+    <p>Bien joué ! Attention vous arrivez maintenant au niveau final. Vous avez 15 secondes. Bonne chance !</p>
+    <button  class="bouton2" id="go_lvl3">C'est parti !</button>
+</div>
+
+<div id="lvl3" class="centrer_contenu">
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="bouton1">Cliques moi !</button>
+    <button class="bouton2">Cliques moi !</button>
+    <button class="bouton3">Cliques moi !</button>
+    <button class="camouflage" id="bouton_fin">Le temps passe...</button>
+</div>
+
+<div class="centrer_contenu" id="win">
+    <h1>Félicitations vous avez gagné !!!</h1>
+</div>
+
+<div id="perdu" class="centrer_contenu">
+    <h1>Essayes encore !</h1>
+    <button class="bouton2" id="recommencer">Recommencer</button>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
